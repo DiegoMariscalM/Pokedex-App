@@ -1,0 +1,41 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    background: rgb(121, 34, 9);
+    background: linear-gradient(90deg, rgba(121, 34, 9, 1) 6%, rgba(255, 0, 17, 1) 64%, rgba(242, 72, 72, 1) 100%);
+}
+
+.footer__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer__circle {
+    position: absolute;
+    width: 70px;
+    aspect-ratio: 1;
+    background-color: black;
+    border-radius: 50%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer__circle-int {
+    position: absolute;
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: black;
+    border: 7px solid white;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
